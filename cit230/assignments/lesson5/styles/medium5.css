@@ -1,0 +1,42 @@
+@media only screen and (min-width: 37.6em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    section.forecast { min-width:  37.6em }  /* show the 10-day forecast with the medium view and up */
+
+        @media only screen and (min-width: 37.6em) {
+        header, nav {   
+            margin: auto; 
+            max-width: 600px;
+        }
+        
+    h1 { 
+        text-align: center; 
+        font-size: 2em;
+        }
+        
+    h3 {
+        color: #000000;
+    }
+        
+    section {
+        width: 700px;
+        margin: auto;
+    }
+      
+    .forecast {
+        clear: both;
+        display: block;
+        margin-top: 30px;
+    } 
+    
+    th {
+        display: inline-block;
+        width: 45px;
+        text-align: center;
+        border-left: .5px solid #1B5FC5;
+    }
+}
+  }

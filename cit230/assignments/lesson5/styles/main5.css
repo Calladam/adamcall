@@ -1,0 +1,74 @@
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 10px;
+  font-family:  serif; 
+  padding-left: 75px;
+  padding-right: 75px;
+  
+}
+header, footer {
+        text-align: center;
+        background-color: #2C01C5;
+        color: whitesmoke;
+}
+}
+header, nav, main, footer { 
+  max-width: 37.5em;
+  margin: 2.25rem auto;
+  padding: 2rem;
+}
+
+header {
+    min-width: 475px;
+    min-height: 115px
+}
+header h1 {
+    margin-top: 50px;
+}
+header img {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;    
+}
+header .subheading {}
+
+#forcast {
+    display: none
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1B5FC5;
+}
+nav {}
+nav button {}
+nav ul {}
+nav ul li {
+    display: inline;
+    float: left;
+}
+nav ul li a {   
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+nav ul li.active a {
+    background-color: #4ED3C9;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+
+main {
+    min-width: 450px;
+}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+footer {}
