@@ -1,13 +1,5 @@
-@media only screen and (min-width: 37.6em) {
-
-    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
-    
-    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
-    
-    section.forecast { min-width:  37.6em }  /* show the 10-day forecast with the medium view and up */
-
-        @media only screen and (min-width: 37.6em) {
-        header, nav {   
+@media only screen and (min-width: 37.5em) {
+    header, nav {
             margin: auto; 
             max-width: 600px;
         }

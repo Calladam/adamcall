@@ -33,8 +33,8 @@ header img {
 }
 header .subheading {}
 
-#forcast {
-    display: none
+.forcast {
+    display: none;
 }
 ul {
   text-decoration: none;
