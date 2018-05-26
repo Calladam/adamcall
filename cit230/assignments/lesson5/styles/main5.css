@@ -1,11 +1,9 @@
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
-
 body {
   font-size: 10px;
   font-family:  serif; 
   padding-left: 75px;
   padding-right: 75px;
-  
 }
 header, footer {
         text-align: center;
@@ -13,17 +11,11 @@ header, footer {
         color: whitesmoke;
 }
 }
-img {
-  float: left;
-  margin-left: 30px;
-  margin-right: 30px;
-}
 header, nav, main, footer { 
   max-width: 37.5em;
   margin: 2.25rem auto;
   padding: 2rem;
 }
-
 header {
     min-width: 475px;
     min-height: 115px
@@ -37,7 +29,11 @@ header img {
     margin-right: 30px;    
 }
 header .subheading {}
-
+img {
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 .forecast {
     display: none;
 }
@@ -49,8 +45,6 @@ ul {
   overflow: hidden;
   background-color: #1B5FC5;
 }
-@media only screen and (max-width: 37.5em) {}
-    
 nav {}
 nav button {}
 nav ul {}
@@ -70,12 +64,11 @@ nav ul li.active a {
 nav ul li a:hover {
     background-color: black;
 }
-
 main {
     min-width: 450px;
 }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img {}
-
+main figure img { }
 footer {}
+Hide
