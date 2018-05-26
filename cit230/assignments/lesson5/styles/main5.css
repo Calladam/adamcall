@@ -13,6 +13,11 @@ header, footer {
         color: whitesmoke;
 }
 }
+img {
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 header, nav, main, footer { 
   max-width: 37.5em;
   margin: 2.25rem auto;
@@ -33,7 +38,7 @@ header img {
 }
 header .subheading {}
 
-.forcast {
+.forecast {
     display: none;
 }
 ul {
@@ -44,6 +49,8 @@ ul {
   overflow: hidden;
   background-color: #1B5FC5;
 }
+@media only screen and (max-width: 37.5em) {}
+    
 nav {}
 nav button {}
 nav ul {}
@@ -69,6 +76,6 @@ main {
 }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+main figure img {}
 
 footer {}
