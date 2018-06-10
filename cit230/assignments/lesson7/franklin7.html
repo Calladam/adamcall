@@ -6,9 +6,9 @@
   <title>Franklin City Weather Conditions</title>
   <meta name="description" content="Assignment weather page for Adam Student in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
   <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/main6.css">
-  <link rel="stylesheet" href="styles/medium6.css">
-  <link rel="stylesheet" href="styles/large6.css">
+  <link rel="stylesheet" href="styles/main7.css">
+  <link rel="stylesheet" href="styles/medium7.css">
+  <link rel="stylesheet" href="styles/large7.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation">
 </head>
 <body>
@@ -29,29 +29,43 @@
     </ul>		
   </nav>
 <main class="clearfix">
-    <h2>Franklin City</h2>
+    <h3>Franklin City</h3>
     <figure>
     </figure>
     <section class="weather-summary">
-      <h3>Weather Summary</h3>    
-      
-      <div id="burning" class="current">
-        Sunny
-        <picture>
-            <img src="images/skysunnycloudscloudy.jpg" width="150" height="125" alt="">
-        </picture>
-      </div>   
-      <div class="conditions">
-        <p>Precipitation: 0%</p>  
-        <p>Wind Speed: 5mph SW</p>  
-      </div>  
-      <div class="highlow">
-        <p>High: 90&deg;</p>  
-        <p>Low: 66&deg;</p>  
+      <h2>Weather Summary</h2>    
+        <div id="burning" class="current">
+            Sunny
+            <picture>
+                <img src="images/skysunnycloudscloudy.jpg" width="250" height="225" alt="">
+            </picture>
+        </div>   
+        <div class="conditions">
+          <ul>
+             <li class="label">Precipitation: </li>
+             <li>  0&percnt; </li>
+          </ul>
+          <ul>
+             <li class="label">Wind Speed: </li>
+              <li> <span id="windspeed">5mph SW</span> </li>
+          </ul>
+          <ul>
+             <li class="label">High: </li>  
+              <li><span id="hightemp"> 90&deg;</span></li>
+          </ul>
+          <ul>
+             <li class="label">Low: </li>
+              <li><span id="lowtemp"> 66&deg;</span> </li>
+          </ul>
+          
+        </div>
+          
+      </section>
+      <div class="wind">
+            <p>Wind chill is <span id="windchill"></span> today.</p>
       </div>
-    </section>
 <section class="forecast">
-      <h3>Ten Day Forecast</h3>
+      <h4>Ten Day Forecast</h4>
       <table>
         <thead>
           <tr>
@@ -102,6 +116,7 @@
     </section>
   </footer>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/currentdate.js" type="text/javascript"></script> 
+    <script src="scripts/currentdate.js" type="text/javascript"></script>
+    <script src="scripts/windchill.js"></script>
  </body>
 </html>
