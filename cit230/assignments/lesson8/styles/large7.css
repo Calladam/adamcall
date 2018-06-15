@@ -1,0 +1,36 @@
+@media only screen and (min-width: 64em ) {
+    main {
+        width: 950px;
+        margin: auto;
+    }
+    
+    .topnav {
+        font-size: .75em;
+    }   
+        
+    #articles {
+        display: flex;
+        text-align: left;
+        margin-top: 30px;
+        clear: both;
+    } 
+    
+    article {
+        display: inline-flex;
+        width: 150px;
+        padding: 20px;
+    }  
+   #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    figure {
+        padding: 5px;
+    } 
+    #gallery figure:hover {
+        box-shadow: 5px 5px 10px gray;
+    }
+  }
